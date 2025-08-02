@@ -1,0 +1,53 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Frontend Build
+# =========================
+inclusive-navigation-frontend/build/
+inclusive-navigation-frontend/.cache/
+inclusive-navigation-frontend/dist/
+
+# =========================
+# Backend Build
+# =========================
+inclusive-navigation-backend/dist/
+inclusive-navigation-backend/build/
+
+# =========================
+# OS / Editor junk files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Firebase / Other service config (if sensitive)
+# =========================
+firebase-debug.log
+firebase.js
